@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0817668A1EFC839A000CC286 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081766891EFC839A000CC286 /* PlaySoundsViewController.swift */; };
+		08292B621EEA122700213A16 /* tocaSomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08292B611EEA122700213A16 /* tocaSomViewController.swift */; };
 		08BE34D01ED7909800B051AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BE34CF1ED7909800B051AC /* AppDelegate.swift */; };
 		08BE34D21ED7909800B051AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BE34D11ED7909800B051AC /* ViewController.swift */; };
 		08BE34D51ED7909800B051AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08BE34D31ED7909800B051AC /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		081766891EFC839A000CC286 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		08292B611EEA122700213A16 /* tocaSomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tocaSomViewController.swift; sourceTree = "<group>"; };
 		08BE34CC1ED7909800B051AC /* projetoTeste.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = projetoTeste.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08BE34CF1ED7909800B051AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08BE34D11ED7909800B051AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +81,7 @@
 		08BE34C31ED7909700B051AC = {
 			isa = PBXGroup;
 			children = (
+				081766891EFC839A000CC286 /* PlaySoundsViewController.swift */,
 				08BE34CE1ED7909800B051AC /* projetoTeste */,
 				08BE34E31ED7909800B051AC /* projetoTesteTests */,
 				08BE34EE1ED7909800B051AC /* projetoTesteUITests */,
@@ -103,6 +108,7 @@
 				08BE34D61ED7909800B051AC /* Assets.xcassets */,
 				08BE34D81ED7909800B051AC /* LaunchScreen.storyboard */,
 				08BE34DB1ED7909800B051AC /* Info.plist */,
+				08292B611EEA122700213A16 /* tocaSomViewController.swift */,
 			);
 			path = projetoTeste;
 			sourceTree = "<group>";
@@ -261,6 +267,8 @@
 			files = (
 				08BE34D21ED7909800B051AC /* ViewController.swift in Sources */,
 				08BE34D01ED7909800B051AC /* AppDelegate.swift in Sources */,
+				0817668A1EFC839A000CC286 /* PlaySoundsViewController.swift in Sources */,
+				08292B621EEA122700213A16 /* tocaSomViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +511,7 @@
 				08BE34F61ED7909800B051AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		08BE34F71ED7909800B051AC /* Build configuration list for PBXNativeTarget "projetoTesteTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +520,7 @@
 				08BE34F91ED7909800B051AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		08BE34FA1ED7909800B051AC /* Build configuration list for PBXNativeTarget "projetoTesteUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +529,7 @@
 				08BE34FC1ED7909800B051AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
